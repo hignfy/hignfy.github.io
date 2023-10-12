@@ -1,5 +1,100 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the entire page */
 body {
-  margin: 10;
-  background: rgb(255, 239, 241);
+  background-color: #f0f0f0; /* Light grey */
+  font-family: Arial, sans-serif;
+}
+
+/* Center the content on the page */
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* White */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the header */
+header {
+  background-color: #333; /* Dark grey */
+  color: #fff;
+  padding: 20px;
   text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Style the navigation menu */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Dark grey */
+}
+
+/* Style the main content area */
+main {
+  padding: 20px;
+}
+
+/* Style links */
+a {
+  color: #007BFF; /* Blue (change to your preference) */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style headings */
+h2 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style paragraphs */
+p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Style lists */
+ul, ol {
+  margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333; /* Dark grey */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add some responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
 }
